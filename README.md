@@ -58,12 +58,17 @@ I learned how to add border & box shadow
 }
 ```
 
-I learned about `min-content` that the `min-content` sizing keyword represents the minimum intrinsic size of the content. For text content this means that the content will take all soft-wrapping opportunities, becoming as small as the longest word.
+I learned how to makwe the div width same as h1
 
 ```css
 .box {
     display: block;
-    width: min-content;
+    width: fit-content;
+}
+
+p {
+  width: 0;
+  min-width: 100%;
 }
 ```
 

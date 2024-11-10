@@ -36,12 +36,17 @@ body {
     padding: 1%;
     border-radius: 3%;
     display: block;
-    width: min-content;
+    width: fit-content;
     border: 1px solid hsl(0, 0%, 7%);
     box-shadow: 8px 8px;
 }
 
-h2:hover {
+p {
+  width: 0;
+  min-width: 100%;
+}
+
+h1:hover {
     cursor: pointer;
     color: hsl(47, 88%, 63%);
 }
