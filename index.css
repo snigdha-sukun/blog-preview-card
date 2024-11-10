@@ -61,6 +61,11 @@ h1:hover {
     align-items: center;
 }
 
+.image-avatar {
+    height: auto;
+    width: 10%;
+}
+
 .name {
     margin-left: 5%;
     font-weight: bold;
